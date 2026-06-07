@@ -1,0 +1,13 @@
+# Install dependencies
+pip install -r requirements.txt
+
+# Run demo (generates test images + full pipeline)
+python demo.py
+
+# Run on your own images
+# 1. Put your images in data/images/
+# 2. Fill data/ground_truth.csv with your manual counts
+python main.py
+
+# Single image
+python main.py --image data/images/mybuttons.jpg --gt 24

@@ -1,0 +1,7 @@
+filename,ground_truth_count
+img_01_normal.jpg,15
+img_02_dark.jpg,12
+img_03_bright.jpg,18
+img_04_uneven.jpg,14
+img_05_crowded.jpg,20
+img_06_sparse.jpg,8
